@@ -1,0 +1,3 @@
+﻿ *** test case ***;${username};${password};${locator_error_msg};${error_msg}
+verify login sucessfully with not permition;dummy;dummy;xpath=//div[@id='main-panel' and h1/text()='Access Denied'];Access Denied;
+verify login with wrong password;dummy;dummy2;xpath=//div[@class='alert alert-danger' and text()='Invalid username or password'];Invalid username or password;
